@@ -1,38 +1,41 @@
-.footer {
-    display: flex;
+html,
+body {
     width: 100%;
-    height: 100px;
+}
+.footer {
+    width: 100%;
+    height: 522.17px;
     align-items: center;
     justify-content: center;
-    background: #EEF2F7;
+    background-image: url(../img/footer.svg);
+    background-repeat: no-repeat;
+    background-size: 100% auto, cover;
+    display: flex;
+    position: static;
+    bottom: -500;
+    left: 0;
+    right: 0;
 }
 .footer .container {
-
 }
 
 @media (max-width: 1200px) {
     .footer {
-
     }
     .footer .container {
-
     }
 }
 
 @media (max-width: 992px) {
     .footer {
-
     }
     .footer .container {
-
     }
 }
 
 @media (max-width: 768px) {
     .footer {
-
     }
     .footer .container {
-
     }
 }

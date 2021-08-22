@@ -1,66 +1,47 @@
 .container {
     display: flex;
     width: 100%;
+    height: 1291px;
     max-width: 1140px;
     margin: 0 auto;
 }
 
-@media (max-width: 1200px) {
-    .container {
-        max-width: 960px;
-    }
+.landing-page h2 {
+    text-align: center;
 }
 
-@media (max-width: 992px) {
-    .container {
-        max-width: 720px;
-    }
+.landing-page .name-container {
+    text-align: center;
 }
 
-@media (max-width: 768px) {
-    .container {
-        max-width: none;
-        margin: 0 15px;
-    }
+.landing-page .name-container h2 {
+    font-family: "Jost";
+    font-style: bold;
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 66px;
+    color: #000000;
 }
 
-/*Bootstrap 4 Grid*/
-/*@media (max-width: 768px) {*/
-/*    .container {*/
-/*        max-width: 540px;*/
-/*    }*/
-/*}*/
-/*@media (max-width: 576px) {*/
-/*    .container {*/
-/*        max-width: none;*/
-/*        margin: 0 15px;*/
-/*    }*/
-/*}*/
+.landing-page .name-container p {
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 124%;
+    text-align: center;
+    letter-spacing: 0.08em;
+    color: #ababab;
+}
 
-/*Mobile First*/
-/*.container {*/
-/*    display: flex;*/
-/*    width: 100%;*/
-/*    max-width: none;*/
-/*    margin: 0 15px;*/
-/*}*/
+.landing-page .container {
+    background-image: url(../img/container-image.svg);
+    background-repeat: no-repeat;
+    background-position: center 100px;
+}
 
-/*@media (min-width: 768px) {*/
-/*    .container {*/
-/*        max-width: 720px;*/
-/*    }*/
-/*}*/
+section {
+}
 
-/*@media (min-width: 992px) {*/
-/*    .container {*/
-/*        max-width: 960px;*/
-/*        margin: 0 auto;*/
-/*    }*/
-/*}*/
-
-/*@media (min-width: 1200px) {*/
-/*    .container {*/
-/*        max-width: 1140px;*/
-/*        margin: 0 auto;*/
-/*    }*/
-/*}*/
+address {
+}
