@@ -1,3 +1,10 @@
+.page-wrapper {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+}
+
 .header {
 	display: flex;
 	position: static;
@@ -19,6 +26,9 @@
 	margin-top: 59px;
 }
 
+.page-wrapper .header nav a:hover {
+	color: #d6cee1;
+}
 .page-wrapper .header nav a {
 	margin-left: 24px;
 	color: rgb(255, 255, 255);

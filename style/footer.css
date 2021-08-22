@@ -12,7 +12,7 @@ body {
     background-size: 100% auto, cover;
     display: flex;
     position: static;
-    bottom: -500;
+    bottom: 0;
     left: 0;
     right: 0;
 }
