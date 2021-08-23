@@ -56,11 +56,11 @@
 	line-height: 124%;
 }
 .page-wrapper .header .text-logo {
-	margin-left: -700px;
+	margin-left: -950px;
 }
 
 .page-wrapper .header .text-logo > a {
-	margin-left: -1050px;
+	margin-right: 22px;
 }
 
 .page-wrapper .header .text-logo h1 {
@@ -81,4 +81,8 @@
 	font-weight: normal;
 	font-size: 20px;
 	line-height: 124%;
+}
+
+.page-wrapper .header .navigation {
+	display: inline;
 }
