@@ -13,10 +13,6 @@
     margin: 0 auto;
 }
 
-.landing-page h2 {
-    text-align: center;
-}
-
 .landing-page .name-container {
     text-align: center;
 }
@@ -41,15 +37,25 @@
     color: #ababab;
 }
 
-.landing-page .container {
-    background-image: url(../img/container-image.svg);
-    background-repeat: no-repeat;
-    background-position: center 100px;
+.landing-page {
+    /* display: inline; */
     display: flex;
+    flex-wrap: nowrap;
 }
 
-.landing-page .container ul li h4:nth-child(1) {
-    font-family: Jost;
+.landing-page .container-wrapper .container-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    text-align: right;
+    width: 35%;
+    height: 600px;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+.landing-page .container-wrapper .container-1 h3 {
+    font-family: "Jost";
     font-style: normal;
     font-weight: 500;
     font-size: 22px;
@@ -57,49 +63,21 @@
     text-align: right;
     color: #000000;
 }
-.landing-page .name-container .container ul {
-    display: flex;
-}
-.landing-page .container ul li:nth-child(1) {
-    display: flex;
-    align-items: start;
-    margin-bottom: 174px;
-    margin-right: 450px;
-}
-.landing-page .container ul li:nth-child(2) {
-    display: flex;
-    align-items: start;
-    margin-bottom: 174px;
-}
 
-.landing-page .container ul li:nth-child(3) {
-    display: flex;
-    align-items: start;
-    margin-bottom: 174px;
-}
-.landing-page .container ul li h4:nth-child(4) {
-    display: flex;
-    align-items: flex-end;
-    margin-bottom: 174px;
-}
-.landing-page .container ul li:nth-child(5) {
-    display: flex;
-    align-items: flex-end;
-    margin-bottom: 174px;
-}
-.landing-page .container ul li h4:nth-child(6) {
-    display: flex;
-    align-items: flex-end;
-}
-
-.landing-page .container ul li p {
-    font-family: Jost;
+.landing-page .container-wrapper .container-1 p {
+    font-family: "Jost";
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 124%;
     text-align: right;
     color: #b0b0b0;
+}
+
+.landing-page .container-wrapper .container-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 101px;
 }
 
 section {
