@@ -15,10 +15,6 @@
 	left: 0;
 	right: 0;
 	z-index: 1070;
-	/* background-image: url(../img/header-bg2.svg), url(../img/header-bg.svg);
-	background-repeat: no-repeat;
-	background-position: 1600px 200px, 100%;
-	background-size: auto auto, cover; */
 	background-image: url("../img/header-bg.svg");
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -38,7 +34,6 @@
 .page-wrapper .header .navigation {
 	width: 100%;
 	height: 100px;
-	/* margin-left: 501.15px; */
 }
 
 .page-wrapper .header nav {
@@ -71,11 +66,6 @@
 	line-height: 124%;
 }
 .page-wrapper .header .text-logo {
-	/* display: flex;
-	flex-wrap: wrap;
-	justify-content: flex-start;
-	align-items: start; */
-	/* margin-right: 450px; */
 	margin-top: 120px;
 	width: 600px;
 	height: 400px;
