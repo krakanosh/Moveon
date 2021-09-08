@@ -11,7 +11,7 @@
 	position: static;
 	max-width: 100%;
 	height: 1290.64px;
-	top: -50px;
+	top: -50;
 	left: 0;
 	right: 0;
 	z-index: 1070;
@@ -21,8 +21,11 @@
 	background-position: 100%;
 }
 
-.page-wrapper .header a {
-	height: 45px;
+.page-wrapper .header .logo {
+	display: flex;
+	align-items: start;
+	margin-left: 200px;
+	margin-top: 70px;
 }
 
 .page-wrapper .header .bg-image {
