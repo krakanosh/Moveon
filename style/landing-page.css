@@ -8,18 +8,113 @@
     padding-top: 60px;
     flex: 1 1 auto;
 }
+
+.container-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container-1 {
+    width: 18vw;
+    height: 80vh;
+}
+
+.block-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 18vw;
+    height: 80vh;
+}
+
+.block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.block div {
+    min-width: 321px;
+}
+
+.marker-list1,
+.marker-list2 {
+    background-image: url("/img/Ellipse.svg");
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 90px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 43px;
+    margin-left: 30px;
+}
+
+.marker-list1 img {
+    padding-right: 225px;
+}
+
+div h3 {
+    font-family: Jost;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 124%;
+    color: #000000;
+}
+
+div p {
+    font-family: Jost;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 124%;
+    color: #b0b0b0;
+}
+
+.block2 {
+    display: flex;
+    flex-direction: row;
+    min-width: 161px;
+}
+
+/* .marker-list2 img {
+    width: 90px;
+    height: 90px;
+} */
+
+.block2 div {
+    min-width: 161px;
+}
+
+.block2 {
+    min-width: 81px;
+}
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 18vw;
+    height: 80vh;
+}
+
+.container-1,
+.container-2 {
+    padding-top: 12vh;
+}
+
 @media (max-width: 1200px) {
     .landing-page {
-
     }
 }
 @media (max-width: 992px) {
     .landing-page {
-
     }
 }
 @media (max-width: 768px) {
     .landing-page {
-
     }
 }

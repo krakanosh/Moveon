@@ -17,38 +17,43 @@
 	z-index: 1070;
 	background-image: url("../img/header-bg.svg");
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: cover;
 	background-position: 100%;
 }
 
-.page-wrapper .header .logo {
+.header .logo {
 	display: flex;
 	align-items: start;
 	margin-left: 200px;
 	margin-top: 70px;
 }
 
-.page-wrapper .header .bg-image {
+.bg-image {
 	position: relative;
 	margin-left: 520px;
 	margin-top: 130px;
 }
 
-.page-wrapper .header .navigation {
+.navigation {
 	width: 100%;
 	height: 100px;
 }
 
-.page-wrapper .header nav {
+.header nav {
 	margin-top: 59px;
 	width: 100%;
 	padding-left: 440px;
 }
 
-.page-wrapper .header nav a:hover {
+.header nav a:hover {
 	color: #d6cee1;
 }
-.page-wrapper .header nav a {
+
+.header nav svg:hover {
+	color: #2f0070;
+}
+
+.header nav a {
 	margin-left: 24px;
 	color: rgb(255, 255, 255);
 	font-family: "Jost";
@@ -58,7 +63,7 @@
 	line-height: 124%;
 }
 
-.page-wrapper .header > a {
+.header > a {
 	margin-top: 55px;
 	margin-left: 264.98px;
 	color: rgb(255, 255, 255);
@@ -68,17 +73,17 @@
 	font-size: 36px;
 	line-height: 124%;
 }
-.page-wrapper .header .text-logo {
+.text-logo {
 	margin-top: 120px;
 	width: 600px;
 	height: 400px;
 }
 
-.page-wrapper .header .text-logo > a {
+.text-logo > a {
 	margin-right: 22px;
 }
 
-.page-wrapper .header .text-logo h1 {
+.text-logo h1 {
 	margin-top: 316px;
 	color: rgb(255, 255, 255);
 	font-family: Jost;
@@ -89,7 +94,7 @@
 	align-items: start;
 }
 
-.page-wrapper .header .text-logo p {
+.text-logo p {
 	margin-top: 14px;
 	color: rgb(255, 255, 255);
 	font-family: Jost;
