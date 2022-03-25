@@ -2,16 +2,17 @@
 	display: flex;
 	flex-direction: column;
 	width: 100%;
-	height: 100%;
 }
 
 .header {
 	display: flex;
-	justify-content: space-between;
-	position: static;
-	max-width: 100%;
-	height: 1290.64px;
-	top: -50;
+	flex-direction: column;
+	position: relative;
+	width: 100%;
+	min-width: 628px;
+	height: 100vh;
+	min-height: 60vh;
+	top: 0;
 	left: 0;
 	right: 0;
 	z-index: 1070;
@@ -21,86 +22,85 @@
 	background-position: 100%;
 }
 
-.header .logo {
+.header-upper-block {
 	display: flex;
-	align-items: start;
-	margin-left: 200px;
-	margin-top: 70px;
+	flex-direction: row;
+	justify-content: space-between;
 }
 
-.bg-image {
-	position: relative;
-	margin-left: 520px;
-	margin-top: 130px;
+.logo {
+	min-width: 152px;
+	width: 16vw;
+	min-height: 15px;
+	height: 50px;
+	margin: 5vh 10vw;
 }
 
-.navigation {
-	width: 100%;
-	height: 100px;
+nav {
+	width: 636px;
+	height: 25px;
+	display: flex;
+	justify-content: space-around;
+	margin: 6.3vh 10vw 0 0;
 }
 
-.header nav {
-	margin-top: 59px;
-	width: 100%;
-	padding-left: 440px;
-}
-
-.header nav a:hover {
-	color: #d6cee1;
-}
-
-.header nav svg:hover {
-	color: #2f0070;
-}
-
-.header nav a {
-	margin-left: 24px;
-	color: rgb(255, 255, 255);
-	font-family: "Jost";
+nav a {
+	font-family: 'Jost';
 	font-style: normal;
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 124%;
+	color: #FFFFFF;
 }
 
-.header > a {
-	margin-top: 55px;
-	margin-left: 264.98px;
-	color: rgb(255, 255, 255);
-	font-family: "Jost";
+.hamburger-menu {
+	display: none;
+}
+
+.header-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.left-block {
+	width: 549px;
+	min-width: 360px;
+	height: 300px;
+	display: flex;
+	align-items: baseline;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	margin-right: 10vw;
+}
+
+.left-block h1 {
+	font-family: 'Jost';
 	font-style: normal;
-	font-weight: 500;
-	font-size: 36px;
-	line-height: 124%;
-}
-.text-logo {
-	margin-top: 120px;
-	width: 600px;
-	height: 400px;
-}
-
-.text-logo > a {
-	margin-right: 22px;
-}
-
-.text-logo h1 {
-	margin-top: 316px;
-	color: rgb(255, 255, 255);
-	font-family: Jost;
-	font-style: normal;
-	font-weight: bold;
+	font-weight: 700;
 	font-size: 48px;
 	line-height: 124%;
-	align-items: start;
+	color: #FFFFFF;
 }
 
-.text-logo p {
-	margin-top: 14px;
-	color: rgb(255, 255, 255);
-	font-family: Jost;
+.left-block p {
+	font-family: 'Jost';
 	font-style: normal;
-	font-weight: normal;
-	font-size: 20px;
+	font-weight: 400;
+	font-size: 100%;
 	line-height: 124%;
-	width: 600px;
+	color: #FFFFFF;
+}
+
+.right-block {
+	width: 27vw;
+	min-width: 347px;
+	height: 66vh;
+	min-height: 346px;
+	background-image: url("../img/header-bg2.svg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin-left: 10vw;
 }
