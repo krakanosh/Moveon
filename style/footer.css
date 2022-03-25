@@ -2,38 +2,33 @@ html,
 body {
     width: 100%;
 }
-.wrapper .footer {
+.footer {
     width: 100%;
-    height: 522.17px;
-    background-image: url(../img/footer.svg);
+    height: 522px;
+    background-image: url("../img/footer.svg");
     background-repeat: no-repeat;
-    background-size: 100% auto, cover;
+    background-size: cover;
     display: flex;
-    align-items: baseline;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-wrap {
+    display: flex;
+    flex-direction: row;
     justify-content: space-around;
-    position: static;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    width: 100%;
+    margin-top: 15vh;
 }
 
-.wrapper .footer .about {
-    width: 518px;
-    height: 93px;
-    margin-top: 10px;
-    display: inline;
-}
-
-.wrapper .footer .about h2 {
-    font-family: "Jost";
-    font-style: normal;
-    font-weight: bold;
+.about {
+    width: 21vw;
+    min-width: 418px;
     font-size: 28px;
-    line-height: 124%;
-    color: #ffffff;
 }
 
-.wrapper .footer .about p {
+.about p {
     margin-top: 13px;
     font-family: "Jost";
     font-style: normal;
@@ -43,11 +38,7 @@ body {
     color: #ffffff;
 }
 
-.wrapper .footer .about {
-    margin-top: 230px;
-}
-
-.wrapper .footer .contact h2 {
+.about h4, .contact h4, .social h4 {
     font-family: "Jost";
     font-style: normal;
     font-weight: bold;
@@ -57,7 +48,7 @@ body {
     margin-bottom: 13px;
 }
 
-.wrapper .footer .contact a {
+.contact a {
     margin-top: 13px;
     font-family: "Jost";
     font-style: normal;
@@ -67,21 +58,22 @@ body {
     color: #ffffff;
 }
 
-.wrapper .footer .social {
-    display: block;
-    /* justify-content: space-between; */
-}
-
-.wrapper .footer .social h2 {
-    font-family: "Jost";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 28px;
-    line-height: 124%;
-    color: #ffffff;
-    margin-bottom: 13px;
-}
-
-.wrapper .footer .social a {
+.social a {
     margin-right: 26px;
+}
+
+.hr {
+    width: 82%;
+    height: 1px;
+    background-color: #fff;
+}
+
+.footer h3 {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 124%;
+    color: #FFFFFF;
+    margin-bottom: 39px;
 }

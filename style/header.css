@@ -2,107 +2,105 @@
 	display: flex;
 	flex-direction: column;
 	width: 100%;
-	height: 100%;
 }
 
 .header {
 	display: flex;
-	justify-content: space-between;
-	position: static;
-	max-width: 100%;
-	height: 1290.64px;
-	top: -50px;
+	flex-direction: column;
+	position: relative;
+	width: 100%;
+	min-width: 628px;
+	height: 100vh;
+	min-height: 60vh;
+	top: 0;
 	left: 0;
 	right: 0;
 	z-index: 1070;
-	/* background-image: url(../img/header-bg2.svg), url(../img/header-bg.svg);
-	background-repeat: no-repeat;
-	background-position: 1600px 200px, 100%;
-	background-size: auto auto, cover; */
 	background-image: url("../img/header-bg.svg");
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: cover;
 	background-position: 100%;
 }
 
-.page-wrapper .header a {
-	height: 45px;
+.header-upper-block {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
 
-.page-wrapper .header .bg-image {
-	position: relative;
-	margin-left: 520px;
-	margin-top: 130px;
+.logo {
+	min-width: 152px;
+	width: 16vw;
+	min-height: 15px;
+	height: 50px;
+	margin: 5vh 10vw;
 }
 
-.page-wrapper .header .navigation {
-	width: 100%;
-	height: 100px;
-	/* margin-left: 501.15px; */
+nav {
+	width: 636px;
+	height: 25px;
+	display: flex;
+	justify-content: space-around;
+	margin: 6.3vh 10vw 0 0;
 }
 
-.page-wrapper .header nav {
-	margin-top: 59px;
-	width: 100%;
-	padding-left: 440px;
-}
-
-.page-wrapper .header nav a:hover {
-	color: #d6cee1;
-}
-.page-wrapper .header nav a {
-	margin-left: 24px;
-	color: rgb(255, 255, 255);
-	font-family: "Jost";
+nav a {
+	font-family: 'Jost';
 	font-style: normal;
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 124%;
+	color: #FFFFFF;
 }
 
-.page-wrapper .header > a {
-	margin-top: 55px;
-	margin-left: 264.98px;
-	color: rgb(255, 255, 255);
-	font-family: "Jost";
+.hamburger-menu {
+	display: none;
+}
+
+.header-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.left-block {
+	width: 549px;
+	min-width: 360px;
+	height: 300px;
+	display: flex;
+	align-items: baseline;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	margin-right: 10vw;
+}
+
+.left-block h1 {
+	font-family: 'Jost';
 	font-style: normal;
-	font-weight: 500;
-	font-size: 36px;
-	line-height: 124%;
-}
-.page-wrapper .header .text-logo {
-	/* display: flex;
-	flex-wrap: wrap;
-	justify-content: flex-start;
-	align-items: start; */
-	/* margin-right: 450px; */
-	margin-top: 120px;
-	width: 600px;
-	height: 400px;
-}
-
-.page-wrapper .header .text-logo > a {
-	margin-right: 22px;
-}
-
-.page-wrapper .header .text-logo h1 {
-	margin-top: 316px;
-	color: rgb(255, 255, 255);
-	font-family: Jost;
-	font-style: normal;
-	font-weight: bold;
+	font-weight: 700;
 	font-size: 48px;
 	line-height: 124%;
-	align-items: start;
+	color: #FFFFFF;
 }
 
-.page-wrapper .header .text-logo p {
-	margin-top: 14px;
-	color: rgb(255, 255, 255);
-	font-family: Jost;
+.left-block p {
+	font-family: 'Jost';
 	font-style: normal;
-	font-weight: normal;
-	font-size: 20px;
+	font-weight: 400;
+	font-size: 100%;
 	line-height: 124%;
-	width: 600px;
+	color: #FFFFFF;
+}
+
+.right-block {
+	width: 27vw;
+	min-width: 347px;
+	height: 66vh;
+	min-height: 346px;
+	background-image: url("../img/header-bg2.svg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin-left: 10vw;
 }
